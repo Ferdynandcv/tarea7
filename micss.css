@@ -1,0 +1,119 @@
+
+body{
+	background-color:white;
+	display: flex;
+
+}
+
+.pant1{
+	font-size: 25px;
+	font-family: monospace;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: rgba(32, 46, 240, 0.911);
+ 	text-align: center;
+ 	border-radius: 108px 108px 95px 98px;
+	 -moz-border-radius: 108px 108px 95px 98px;
+	 border: 0px solid #000000;
+ 	-webkit-border-radius: 108px 108px 95px 98px;
+	-webkit-box-shadow: 55px 19px 44px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 55px 19px 44px 2px rgba(0,0,0,0.75);
+	box-shadow: 55px 19px 44px 2px rgba(0,0,0,0.75);
+	width: 550px;	
+
+}
+
+.pant2{
+	font-size: 25px;
+	margin: 120px;
+	font-family: monospace;
+	padding: 15px;
+	margin: 0 auto;
+	background-color: yellow;
+	border-radius: 108px 108px 95px 98px;
+	-moz-border-radius: 108px 108px 95px 98px;
+	-webkit-border-radius: 108px 108px 95px 98px;
+	border: 0px solid #000000;
+   -webkit-box-shadow: 55px 19px 44px 2px rgba(0,0,0,0.75);
+   -moz-box-shadow: 55px 19px 44px 2px rgba(0,0,0,0.75);
+   box-shadow: 55px 19px 44px 2px rgba(0, 0, 0, 0.75);
+   width: 600px;	
+
+}
+.pant3{
+	font-size: 25px;
+	margin: 120px;
+	padding: 15px;
+	font-family: monospace;
+	margin: 0 auto;
+	background-color: green;
+	border-radius: 108px 108px 95px 98px;
+	-moz-border-radius: 108px 108px 95px 98px;
+	-webkit-border-radius: 108px 108px 95px 98px;
+	border: 0px solid #000000;
+   -webkit-box-shadow: 55px 19px 44px 2px rgba(0,0,0,0.75);
+   -moz-box-shadow: 55px 19px 44px 2px rgba(0,0,0,0.75);
+   box-shadow: 55px 19px 44px 2px rgba(0,0,0,0.75);
+   width: 600px;	
+}
+
+.pant4{
+	font-size: 25px;
+	margin: 10px;
+	font-family: monospace;
+	padding: 15px;
+	margin: 0 auto;
+	background-color: yellowgreen;
+	border-radius: 108px 108px 95px 98px;
+	-moz-border-radius: 108px 108px 95px 98px;
+	-webkit-border-radius: 108px 108px 95px 98px;
+	border: 0px solid #000000;
+   -webkit-box-shadow: 55px 19px 44px 2px rgba(0,0,0,0.75);
+   -moz-box-shadow: 55px 19px 44px 2px rgba(0,0,0,0.75);
+   box-shadow: 55px 19px 44px 2px rgba(0,0,0,0.75);
+   width: 600px;	
+}
+
+
+.pant5{
+	font-family: monospace;
+	font-size: 25px;
+	margin: 10px;
+	padding: 15px;
+	margin: 0 auto;
+	background-color: rgba(179, 37, 37, 0.75);
+	border-radius: 108px 108px 95px 98px;
+	-moz-border-radius: 108px 108px 95px 98px;
+	-webkit-border-radius: 108px 108px 95px 98px;
+	border: 0px solid #000000;
+   -webkit-box-shadow: 55px 19px 44px 2px rgba(0,0,0,0.75);
+   -moz-box-shadow: 55px 19px 44px 2px rgba(0,0,0,0.75);
+   box-shadow: 55px 19px 44px 2px rgba(0,0,0,0.75);
+   width: 600px;	
+}
+
+
+
+button{
+	color: cornsilk;
+	background-color: red;
+	outline: none;
+	border: 0;
+	border-radius: 108px 108px 95px 98px;
+	font-family: monospace;
+	padding: 10px;
+	width: 325px;
+
+}
+
+select{
+	color: cornsilk;
+	background-color: red;
+	outline: none;
+	border: 0;
+	border-radius: 108px 108px 95px 98px;
+	font-family: monospace;
+	padding: 10px;
+	width: 325px;
+
+}

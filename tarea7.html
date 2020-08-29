@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="micss.css">
+    <title>Tarea 7</title>
+    <script src='apiPaises.js'></script>
+
+</head>
+
+<body>
+
+    <div class="pant1">
+        <P>random de perfiles</P>
+        <button type="number" onclick="return traer()">Ver</button>
+
+        <div class="busqueda" id="contenido"></div>
+    </div>
+
+
+    <div class="pant2">
+        <P>Carga Informacion</P>
+        <div id="main"></div>
+    </div>
+
+    <div class="pant3">
+        <P>Continente</P>
+        <select id='select'>
+            <option value='africa'>africa</option>
+            <option value='americas'>americas</option>
+            <option value='europe'>Europa</option>
+            <option value='oceania'>Oceanica</option>
+            <option value='antartica'>antartida</option>
+            <option value='asia'>Asia</option>
+
+        </select>
+
+        <br>
+        <table>
+            <thead>
+                <tr>
+                    <th>Pais</th>
+                </tr>
+            </thead>
+            <tbody id='bodypaises'></tbody>
+        </table>
+
+
+    </div>
+    <div class="pant4">
+        <img src="" id="pokemon" height="200">
+
+
+        <script>
+            const $pokemon = document.querySelector('#pokemon')
+        
+            function renderPokemon(image) {
+                $pokemon.setAttribute('src', image)
+            }
+           
+            fetch('https://pokeapi.co/api/v2/pokemon/25/')
+                .then(response => response.json())
+                .then(pokemon => {
+                    renderPokemon(pokemon.sprites.front_default)
+                })
+
+        </script>
+    </div>
+
+</body>
+<script src='apis.js'></script>
+
+</html>
